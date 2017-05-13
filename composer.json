@@ -14,7 +14,7 @@
   ],
   "require": {
     "php": ">=7.0.0",
-    "jcode/framework": "dev-development"
+    "jcode/framework": "0.0.*"
   },
   "autoload": {
     "psr-4": {
