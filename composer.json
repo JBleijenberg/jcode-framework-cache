@@ -1,0 +1,24 @@
+{
+  "name": "jcode/framework-cache",
+  "type": "library",
+  "description": "Caching module for J!Code PHP framework",
+  "homepage": "https://github.com/JBleijenberg/jcode-framework-cache",
+  "license": "GPL 3.0",
+  "authors": [
+    {
+      "name": "Jeroen Bleijenberg",
+      "email": "jeroen@jcode.nl",
+      "homepage": "http://jcode.nl",
+      "role": "DevOPS Engineer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "jcode/framework": "dev-development"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jcode\\Cache": "src/"
+    }
+  }
+}
