@@ -24,7 +24,7 @@ namespace Jcode\Cache;
 
 use Jcode\Application;
 use \Exception;
-use Jcode\Object;
+use Jcode\DataObject;
 
 class Redis implements \Jcode\Cache\CacheInterface
 {
@@ -37,7 +37,7 @@ class Redis implements \Jcode\Cache\CacheInterface
 
     protected $prefix;
 
-    public function connect(Object $config)
+    public function connect(DataObject $config)
     {
         try {
             $this->redis->connect($config->getHost(), $config->getPort());

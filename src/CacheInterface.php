@@ -22,13 +22,12 @@
  */
 namespace Jcode\Cache;
 
-use Jcode\Application\Config;
-use Jcode\Object;
+use Jcode\DataObject;
 
 interface CacheInterface
 {
 
-    public function connect(Object $config);
+    public function connect(DataObject $config);
 
     public function set($key, $value);
 
