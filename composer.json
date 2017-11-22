@@ -17,7 +17,7 @@
     "jcode/framework": "dev-development"
   },
   "autoload": {
-    "psr-0": {
+    "psr-4": {
       "Jcode\\Cache\\": "src/"
     }
   }
